@@ -31,11 +31,19 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y95-xz-lX6">
-                                <rect key="frame" x="190" y="740" width="34" height="190"/>
+                                <rect key="frame" x="82" y="744" width="34" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Crop"/>
                                 <connections>
                                     <action selector="CropClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NrS-nC-Rye"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7td-Yl-0Td">
+                                <rect key="frame" x="273" y="824" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <action selector="CancelClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Fh-8N-tPh"/>
                                 </connections>
                             </button>
                         </subviews>
